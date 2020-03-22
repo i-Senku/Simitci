@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377027C40533C2CD99EFA71D /* Pods_simitci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E71251BA0D45589427743E /* Pods_simitci.framework */; };
+		3A85A4B1D1F905029411932B /* Pods_simitciTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D8C032C0663A6C88019090 /* Pods_simitciTests.framework */; };
+		5F237AAEEA88CAB58A884D05 /* Pods_simitci_simitciUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F33B28AE165CB5E1BA088 /* Pods_simitci_simitciUITests.framework */; };
+		FE1214C523D0814E009A4828 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1214C423D0814E009A4828 /* Product.swift */; };
+		FE1214C823D08290009A4828 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1214C723D08290009A4828 /* api.swift */; };
+		FE75FAF023D8EE7900B1E387 /* SplashScreenn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75FAEF23D8EE7900B1E387 /* SplashScreenn.swift */; };
+		FEA25BBD23CFAB6200F7F495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BBC23CFAB6200F7F495 /* AppDelegate.swift */; };
+		FEA25BBF23CFAB6200F7F495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BBE23CFAB6200F7F495 /* SceneDelegate.swift */; };
+		FEA25BC123CFAB6200F7F495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BC023CFAB6200F7F495 /* ViewController.swift */; };
+		FEA25BC423CFAB6200F7F495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA25BC223CFAB6200F7F495 /* Main.storyboard */; };
+		FEA25BC723CFAB6200F7F495 /* simitci.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BC523CFAB6200F7F495 /* simitci.xcdatamodeld */; };
+		FEA25BC923CFAB6400F7F495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA25BC823CFAB6400F7F495 /* Assets.xcassets */; };
+		FEA25BCC23CFAB6400F7F495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA25BCA23CFAB6400F7F495 /* LaunchScreen.storyboard */; };
+		FEA25BD723CFAB6400F7F495 /* simitciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BD623CFAB6400F7F495 /* simitciTests.swift */; };
+		FEA25BE223CFAB6400F7F495 /* simitciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BE123CFAB6400F7F495 /* simitciUITests.swift */; };
+		FEA25BF123CFB17300F7F495 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25BF023CFB17300F7F495 /* CollectionViewCell.swift */; };
+		FEC042ED23D333E9006119A4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC042EC23D333E9006119A4 /* DetailViewController.swift */; };
+		FEE0941A23D6320000D0D795 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0941923D6320000D0D795 /* CategoryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA25BD323CFAB6400F7F495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA25BB123CFAB6200F7F495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA25BB823CFAB6200F7F495;
+			remoteInfo = simitci;
+		};
+		FEA25BDE23CFAB6400F7F495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA25BB123CFAB6200F7F495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA25BB823CFAB6200F7F495;
+			remoteInfo = simitci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36D8C032C0663A6C88019090 /* Pods_simitciTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simitciTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499DECE6C77BA001E910520C /* Pods-simitci-simitciUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitci-simitciUITests.release.xcconfig"; path = "Target Support Files/Pods-simitci-simitciUITests/Pods-simitci-simitciUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67012E6C870621B79B2326BF /* Pods-simitciTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitciTests.debug.xcconfig"; path = "Target Support Files/Pods-simitciTests/Pods-simitciTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3F33B28AE165CB5E1BA088 /* Pods_simitci_simitciUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simitci_simitciUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C478DCCC1F357803564BA21 /* Pods-simitciTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitciTests.release.xcconfig"; path = "Target Support Files/Pods-simitciTests/Pods-simitciTests.release.xcconfig"; sourceTree = "<group>"; };
+		A25473C0F248635BD02DA3AD /* Pods-simitci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitci.debug.xcconfig"; path = "Target Support Files/Pods-simitci/Pods-simitci.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E71251BA0D45589427743E /* Pods_simitci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simitci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D1ABA85C6254A5C65B4836 /* Pods-simitci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitci.release.xcconfig"; path = "Target Support Files/Pods-simitci/Pods-simitci.release.xcconfig"; sourceTree = "<group>"; };
+		CA1AEEAE5C2A240A820D19E1 /* Pods-simitci-simitciUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simitci-simitciUITests.debug.xcconfig"; path = "Target Support Files/Pods-simitci-simitciUITests/Pods-simitci-simitciUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1214C423D0814E009A4828 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FE1214C723D08290009A4828 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		FE165B37240C41A40015E757 /* simitci.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = simitci.entitlements; sourceTree = "<group>"; };
+		FE75FAEF23D8EE7900B1E387 /* SplashScreenn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenn.swift; sourceTree = "<group>"; };
+		FEA25BB923CFAB6200F7F495 /* Simitci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simitci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA25BBC23CFAB6200F7F495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA25BBE23CFAB6200F7F495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEA25BC023CFAB6200F7F495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEA25BC323CFAB6200F7F495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA25BC623CFAB6200F7F495 /* simitci.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simitci.xcdatamodel; sourceTree = "<group>"; };
+		FEA25BC823CFAB6400F7F495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA25BCB23CFAB6400F7F495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA25BCD23CFAB6400F7F495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA25BD223CFAB6400F7F495 /* simitciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simitciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA25BD623CFAB6400F7F495 /* simitciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simitciTests.swift; sourceTree = "<group>"; };
+		FEA25BD823CFAB6400F7F495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA25BDD23CFAB6400F7F495 /* simitciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simitciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA25BE123CFAB6400F7F495 /* simitciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simitciUITests.swift; sourceTree = "<group>"; };
+		FEA25BE323CFAB6400F7F495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA25BF023CFB17300F7F495 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FEC042EC23D333E9006119A4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FEE0941923D6320000D0D795 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA25BB623CFAB6200F7F495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377027C40533C2CD99EFA71D /* Pods_simitci.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BCF23CFAB6400F7F495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A85A4B1D1F905029411932B /* Pods_simitciTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BDA23CFAB6400F7F495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F237AAEEA88CAB58A884D05 /* Pods_simitci_simitciUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA12ED2FD0148C8ED8C488D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25473C0F248635BD02DA3AD /* Pods-simitci.debug.xcconfig */,
+				B9D1ABA85C6254A5C65B4836 /* Pods-simitci.release.xcconfig */,
+				CA1AEEAE5C2A240A820D19E1 /* Pods-simitci-simitciUITests.debug.xcconfig */,
+				499DECE6C77BA001E910520C /* Pods-simitci-simitciUITests.release.xcconfig */,
+				67012E6C870621B79B2326BF /* Pods-simitciTests.debug.xcconfig */,
+				8C478DCCC1F357803564BA21 /* Pods-simitciTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3FE0A99A12E6EB510BCD42E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E71251BA0D45589427743E /* Pods_simitci.framework */,
+				6A3F33B28AE165CB5E1BA088 /* Pods_simitci_simitciUITests.framework */,
+				36D8C032C0663A6C88019090 /* Pods_simitciTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1214C323D08121009A4828 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE1214C423D0814E009A4828 /* Product.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE1214C623D08286009A4828 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				FE1214C723D08290009A4828 /* api.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		FEA25BB023CFAB6200F7F495 = {
+			isa = PBXGroup;
+			children = (
+				FEA25BBB23CFAB6200F7F495 /* simitci */,
+				FEA25BD523CFAB6400F7F495 /* simitciTests */,
+				FEA25BE023CFAB6400F7F495 /* simitciUITests */,
+				FEA25BBA23CFAB6200F7F495 /* Products */,
+				3FA12ED2FD0148C8ED8C488D /* Pods */,
+				E3FE0A99A12E6EB510BCD42E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA25BBA23CFAB6200F7F495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA25BB923CFAB6200F7F495 /* Simitci.app */,
+				FEA25BD223CFAB6400F7F495 /* simitciTests.xctest */,
+				FEA25BDD23CFAB6400F7F495 /* simitciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA25BBB23CFAB6200F7F495 /* simitci */ = {
+			isa = PBXGroup;
+			children = (
+				FE165B37240C41A40015E757 /* simitci.entitlements */,
+				FEC042EB23D333CC006119A4 /* detal_vc */,
+				FE1214C623D08286009A4828 /* api */,
+				FE1214C323D08121009A4828 /* model */,
+				FEA25BEF23CFB15300F7F495 /* collection */,
+				FEA25BBC23CFAB6200F7F495 /* AppDelegate.swift */,
+				FEA25BBE23CFAB6200F7F495 /* SceneDelegate.swift */,
+				FEA25BC023CFAB6200F7F495 /* ViewController.swift */,
+				FEA25BC223CFAB6200F7F495 /* Main.storyboard */,
+				FEA25BC823CFAB6400F7F495 /* Assets.xcassets */,
+				FEA25BCA23CFAB6400F7F495 /* LaunchScreen.storyboard */,
+				FEA25BCD23CFAB6400F7F495 /* Info.plist */,
+				FEA25BC523CFAB6200F7F495 /* simitci.xcdatamodeld */,
+				FE75FAEF23D8EE7900B1E387 /* SplashScreenn.swift */,
+			);
+			path = simitci;
+			sourceTree = "<group>";
+		};
+		FEA25BD523CFAB6400F7F495 /* simitciTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA25BD623CFAB6400F7F495 /* simitciTests.swift */,
+				FEA25BD823CFAB6400F7F495 /* Info.plist */,
+			);
+			path = simitciTests;
+			sourceTree = "<group>";
+		};
+		FEA25BE023CFAB6400F7F495 /* simitciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA25BE123CFAB6400F7F495 /* simitciUITests.swift */,
+				FEA25BE323CFAB6400F7F495 /* Info.plist */,
+			);
+			path = simitciUITests;
+			sourceTree = "<group>";
+		};
+		FEA25BEF23CFB15300F7F495 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				FEA25BF023CFB17300F7F495 /* CollectionViewCell.swift */,
+				FEE0941923D6320000D0D795 /* CategoryCell.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		FEC042EB23D333CC006119A4 /* detal_vc */ = {
+			isa = PBXGroup;
+			children = (
+				FEC042EC23D333E9006119A4 /* DetailViewController.swift */,
+			);
+			path = detal_vc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA25BB823CFAB6200F7F495 /* simitci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA25BE623CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitci" */;
+			buildPhases = (
+				8B04D8A298B4C7AF2D91B696 /* [CP] Check Pods Manifest.lock */,
+				FEA25BB523CFAB6200F7F495 /* Sources */,
+				FEA25BB623CFAB6200F7F495 /* Frameworks */,
+				FEA25BB723CFAB6200F7F495 /* Resources */,
+				43D1E1C54601C91DEAB731DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simitci;
+			productName = simitci;
+			productReference = FEA25BB923CFAB6200F7F495 /* Simitci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA25BD123CFAB6400F7F495 /* simitciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA25BE923CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitciTests" */;
+			buildPhases = (
+				43DBFFC69417B996F57F7D8E /* [CP] Check Pods Manifest.lock */,
+				FEA25BCE23CFAB6400F7F495 /* Sources */,
+				FEA25BCF23CFAB6400F7F495 /* Frameworks */,
+				FEA25BD023CFAB6400F7F495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA25BD423CFAB6400F7F495 /* PBXTargetDependency */,
+			);
+			name = simitciTests;
+			productName = simitciTests;
+			productReference = FEA25BD223CFAB6400F7F495 /* simitciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA25BDC23CFAB6400F7F495 /* simitciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA25BEC23CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitciUITests" */;
+			buildPhases = (
+				8F82284BC7B00A5337D84634 /* [CP] Check Pods Manifest.lock */,
+				FEA25BD923CFAB6400F7F495 /* Sources */,
+				FEA25BDA23CFAB6400F7F495 /* Frameworks */,
+				FEA25BDB23CFAB6400F7F495 /* Resources */,
+				321F07FE4494265071C12690 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA25BDF23CFAB6400F7F495 /* PBXTargetDependency */,
+			);
+			name = simitciUITests;
+			productName = simitciUITests;
+			productReference = FEA25BDD23CFAB6400F7F495 /* simitciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA25BB123CFAB6200F7F495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = simitci;
+				TargetAttributes = {
+					FEA25BB823CFAB6200F7F495 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FEA25BD123CFAB6400F7F495 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FEA25BB823CFAB6200F7F495;
+					};
+					FEA25BDC23CFAB6400F7F495 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FEA25BB823CFAB6200F7F495;
+					};
+				};
+			};
+			buildConfigurationList = FEA25BB423CFAB6200F7F495 /* Build configuration list for PBXProject "simitci" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA25BB023CFAB6200F7F495;
+			productRefGroup = FEA25BBA23CFAB6200F7F495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA25BB823CFAB6200F7F495 /* simitci */,
+				FEA25BD123CFAB6400F7F495 /* simitciTests */,
+				FEA25BDC23CFAB6400F7F495 /* simitciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA25BB723CFAB6200F7F495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA25BCC23CFAB6400F7F495 /* LaunchScreen.storyboard in Resources */,
+				FEA25BC923CFAB6400F7F495 /* Assets.xcassets in Resources */,
+				FEA25BC423CFAB6200F7F495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BD023CFAB6400F7F495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BDB23CFAB6400F7F495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321F07FE4494265071C12690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simitci-simitciUITests/Pods-simitci-simitciUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simitci-simitciUITests/Pods-simitci-simitciUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simitci-simitciUITests/Pods-simitci-simitciUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D1E1C54601C91DEAB731DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simitci/Pods-simitci-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simitci/Pods-simitci-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simitci/Pods-simitci-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43DBFFC69417B996F57F7D8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simitciTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B04D8A298B4C7AF2D91B696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simitci-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F82284BC7B00A5337D84634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simitci-simitciUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA25BB523CFAB6200F7F495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1214C823D08290009A4828 /* api.swift in Sources */,
+				FEA25BF123CFB17300F7F495 /* CollectionViewCell.swift in Sources */,
+				FEA25BC123CFAB6200F7F495 /* ViewController.swift in Sources */,
+				FE75FAF023D8EE7900B1E387 /* SplashScreenn.swift in Sources */,
+				FEA25BBD23CFAB6200F7F495 /* AppDelegate.swift in Sources */,
+				FEA25BC723CFAB6200F7F495 /* simitci.xcdatamodeld in Sources */,
+				FEE0941A23D6320000D0D795 /* CategoryCell.swift in Sources */,
+				FEA25BBF23CFAB6200F7F495 /* SceneDelegate.swift in Sources */,
+				FE1214C523D0814E009A4828 /* Product.swift in Sources */,
+				FEC042ED23D333E9006119A4 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BCE23CFAB6400F7F495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA25BD723CFAB6400F7F495 /* simitciTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA25BD923CFAB6400F7F495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA25BE223CFAB6400F7F495 /* simitciUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA25BD423CFAB6400F7F495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA25BB823CFAB6200F7F495 /* simitci */;
+			targetProxy = FEA25BD323CFAB6400F7F495 /* PBXContainerItemProxy */;
+		};
+		FEA25BDF23CFAB6400F7F495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA25BB823CFAB6200F7F495 /* simitci */;
+			targetProxy = FEA25BDE23CFAB6400F7F495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA25BC223CFAB6200F7F495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA25BC323CFAB6200F7F495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA25BCA23CFAB6400F7F495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA25BCB23CFAB6400F7F495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA25BE423CFAB6400F7F495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA25BE523CFAB6400F7F495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA25BE723CFAB6400F7F495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25473C0F248635BD02DA3AD /* Pods-simitci.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 99WQTJ75LR;
+				INFOPLIST_FILE = simitci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubus3d.simitapps;
+				PRODUCT_NAME = Simitci;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEA25BE823CFAB6400F7F495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D1ABA85C6254A5C65B4836 /* Pods-simitci.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 99WQTJ75LR;
+				INFOPLIST_FILE = simitci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubus3d.simitapps;
+				PRODUCT_NAME = Simitci;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FEA25BEA23CFAB6400F7F495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67012E6C870621B79B2326BF /* Pods-simitciTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = simitciTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simitci.simitciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simitci.app/simitci";
+			};
+			name = Debug;
+		};
+		FEA25BEB23CFAB6400F7F495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C478DCCC1F357803564BA21 /* Pods-simitciTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = simitciTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simitci.simitciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simitci.app/simitci";
+			};
+			name = Release;
+		};
+		FEA25BED23CFAB6400F7F495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1AEEAE5C2A240A820D19E1 /* Pods-simitci-simitciUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = simitciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simitci.simitciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simitci;
+			};
+			name = Debug;
+		};
+		FEA25BEE23CFAB6400F7F495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499DECE6C77BA001E910520C /* Pods-simitci-simitciUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = simitciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simitci.simitciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simitci;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA25BB423CFAB6200F7F495 /* Build configuration list for PBXProject "simitci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA25BE423CFAB6400F7F495 /* Debug */,
+				FEA25BE523CFAB6400F7F495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA25BE623CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA25BE723CFAB6400F7F495 /* Debug */,
+				FEA25BE823CFAB6400F7F495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA25BE923CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA25BEA23CFAB6400F7F495 /* Debug */,
+				FEA25BEB23CFAB6400F7F495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA25BEC23CFAB6400F7F495 /* Build configuration list for PBXNativeTarget "simitciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA25BED23CFAB6400F7F495 /* Debug */,
+				FEA25BEE23CFAB6400F7F495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEA25BC523CFAB6200F7F495 /* simitci.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEA25BC623CFAB6200F7F495 /* simitci.xcdatamodel */,
+			);
+			currentVersion = FEA25BC623CFAB6200F7F495 /* simitci.xcdatamodel */;
+			path = simitci.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEA25BB123CFAB6200F7F495 /* Project object */;
+}

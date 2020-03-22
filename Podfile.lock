@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - iOSDropDown (0.3.4)
+  - Kingfisher (5.13.0):
+    - Kingfisher/Core (= 5.13.0)
+  - Kingfisher/Core (5.13.0)
+  - PickerButton (0.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - iOSDropDown (~> 0.3)
+  - Kingfisher (~> 5.13)
+  - PickerButton (~> 0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - iOSDropDown
+    - Kingfisher
+    - PickerButton
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  PickerButton: d92eba033a8cd678ff2e34f69b0ec3d7388e490a
+
+PODFILE CHECKSUM: ce0771c803a142e84d2900c3ac31f8cacab2a3c2
+
+COCOAPODS: 1.8.4
